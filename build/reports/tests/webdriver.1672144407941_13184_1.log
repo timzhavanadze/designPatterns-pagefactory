@@ -1,0 +1,375 @@
+[1672144408.127][INFO]: Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 56999
+[1672144408.127][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1672144408.319][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Cxadisha\\Desktop\\Automation\\0Projects\\designPatterns_homework\\designPatterns-homework\\build\\downloads\\1672144407460_13184_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Cxadisha\\Desktop\\Automation\\0Projects\\designPatterns_homework\\designPatterns-homework\\build\\downloads\\1672144407460_13184_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1672144408.323][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Cxadisha\\Desktop\\Automation\\0Projects\\designPatterns_homework\\designPatterns-homework\\build\\downloads\\1672144407460_13184_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1672144408.324][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1672144408.325][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Cxadisha\AppData\Local\Temp\scoped_dir12924_211771389" data:,
+[1672144409.077][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1672144409.083][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "108.0.5359.125",
+      "chrome": {
+         "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
+         "userDataDir": "C:\\Users\\Cxadisha\\AppData\\Local\\Temp\\scoped_dir12924_211771389"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:1807"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "3db7e3b72f136ff6dc76f2c3e8bfd4d8"
+}
+[1672144409.121][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND SetWindowRect {
+   "height": 1080,
+   "width": 1920
+}
+[1672144409.121][INFO]: Waiting for pending navigations...
+[1672144409.123][INFO]: Done waiting for pending navigations. Status: ok
+[1672144409.243][INFO]: Waiting for pending navigations...
+[1672144409.243][INFO]: Done waiting for pending navigations. Status: ok
+[1672144409.243][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE SetWindowRect {
+   "height": 1082,
+   "width": 1922,
+   "x": 8,
+   "y": 8
+}
+[1672144409.247][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1672144409.247][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE SetTimeouts
+[1672144409.252][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND Navigate {
+   "url": "https://demoqa.com"
+}
+[1672144409.252][INFO]: Waiting for pending navigations...
+[1672144409.253][INFO]: Done waiting for pending navigations. Status: ok
+[1672144409.518][INFO]: Waiting for pending navigations...
+[1672144412.038][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.038][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE Navigate
+[1672144412.061][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144412.061][INFO]: Waiting for pending navigations...
+[1672144412.066][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.076][INFO]: Waiting for pending navigations...
+[1672144412.087][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.087][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144412.310][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144412.310][INFO]: Waiting for pending navigations...
+[1672144412.311][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.315][INFO]: Waiting for pending navigations...
+[1672144412.316][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.316][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144412.529][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144412.529][INFO]: Waiting for pending navigations...
+[1672144412.530][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.534][INFO]: Waiting for pending navigations...
+[1672144412.535][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.535][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144412.748][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144412.748][INFO]: Waiting for pending navigations...
+[1672144412.749][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.752][INFO]: Waiting for pending navigations...
+[1672144412.752][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.752][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144412.970][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144412.970][INFO]: Waiting for pending navigations...
+[1672144412.971][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.975][INFO]: Waiting for pending navigations...
+[1672144412.975][INFO]: Done waiting for pending navigations. Status: ok
+[1672144412.975][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144413.188][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144413.188][INFO]: Waiting for pending navigations...
+[1672144413.189][INFO]: Done waiting for pending navigations. Status: ok
+[1672144413.193][INFO]: Waiting for pending navigations...
+[1672144413.193][INFO]: Done waiting for pending navigations. Status: ok
+[1672144413.193][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144413.409][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144413.409][INFO]: Waiting for pending navigations...
+[1672144413.409][INFO]: Done waiting for pending navigations. Status: ok
+[1672144413.413][INFO]: Waiting for pending navigations...
+[1672144413.413][INFO]: Done waiting for pending navigations. Status: ok
+[1672144413.413][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144413.629][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144413.629][INFO]: Waiting for pending navigations...
+[1672144413.629][INFO]: Done waiting for pending navigations. Status: ok
+[1672144413.633][INFO]: Waiting for pending navigations...
+[1672144413.633][INFO]: Done waiting for pending navigations. Status: ok
+[1672144413.633][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144413.848][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144413.848][INFO]: Waiting for pending navigations...
+[1672144413.849][INFO]: Done waiting for pending navigations. Status: ok
+[1672144413.852][INFO]: Waiting for pending navigations...
+[1672144413.853][INFO]: Done waiting for pending navigations. Status: ok
+[1672144413.853][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144414.068][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144414.068][INFO]: Waiting for pending navigations...
+[1672144414.068][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.072][INFO]: Waiting for pending navigations...
+[1672144414.072][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.072][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144414.288][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144414.288][INFO]: Waiting for pending navigations...
+[1672144414.289][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.292][INFO]: Waiting for pending navigations...
+[1672144414.293][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.293][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144414.506][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144414.506][INFO]: Waiting for pending navigations...
+[1672144414.507][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.511][INFO]: Waiting for pending navigations...
+[1672144414.511][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.511][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144414.723][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144414.723][INFO]: Waiting for pending navigations...
+[1672144414.724][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.727][INFO]: Waiting for pending navigations...
+[1672144414.727][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.727][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144414.943][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144414.943][INFO]: Waiting for pending navigations...
+[1672144414.943][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.947][INFO]: Waiting for pending navigations...
+[1672144414.947][INFO]: Done waiting for pending navigations. Status: ok
+[1672144414.947][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144415.164][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144415.164][INFO]: Waiting for pending navigations...
+[1672144415.164][INFO]: Done waiting for pending navigations. Status: ok
+[1672144415.168][INFO]: Waiting for pending navigations...
+[1672144415.168][INFO]: Done waiting for pending navigations. Status: ok
+[1672144415.169][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144415.385][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144415.385][INFO]: Waiting for pending navigations...
+[1672144415.385][INFO]: Done waiting for pending navigations. Status: ok
+[1672144415.389][INFO]: Waiting for pending navigations...
+[1672144415.389][INFO]: Done waiting for pending navigations. Status: ok
+[1672144415.390][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144415.603][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144415.603][INFO]: Waiting for pending navigations...
+[1672144415.604][INFO]: Done waiting for pending navigations. Status: ok
+[1672144415.607][INFO]: Waiting for pending navigations...
+[1672144415.608][INFO]: Done waiting for pending navigations. Status: ok
+[1672144415.608][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144415.823][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144415.823][INFO]: Waiting for pending navigations...
+[1672144415.823][INFO]: Done waiting for pending navigations. Status: ok
+[1672144415.827][INFO]: Waiting for pending navigations...
+[1672144415.828][INFO]: Done waiting for pending navigations. Status: ok
+[1672144415.828][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144416.042][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='Practice Form']"
+}
+[1672144416.042][INFO]: Waiting for pending navigations...
+[1672144416.042][INFO]: Done waiting for pending navigations. Status: ok
+[1672144416.046][INFO]: Waiting for pending navigations...
+[1672144416.046][INFO]: Done waiting for pending navigations. Status: ok
+[1672144416.046][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Practice Form']"}
+  (Session info: chrome=108.0.5359.125)
+[1672144416.260][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1672144416.260][INFO]: Waiting for pending navigations...
+[1672144416.261][INFO]: Done waiting for pending navigations. Status: ok
+[1672144416.263][INFO]: Waiting for pending navigations...
+[1672144416.264][INFO]: Done waiting for pending navigations. Status: ok
+[1672144416.264][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cscript src=\"https://partner.googleadservices.com/gampad/cookie.js?domain=demoqa.com&amp;callback=_gfp_s_&amp;client=c..."
+[1672144416.268][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] COMMAND Screenshot {
+}
+[1672144416.268][INFO]: Waiting for pending navigations...
+[1672144416.269][INFO]: Done waiting for pending navigations. Status: ok
+[1672144416.479][INFO]: Waiting for pending navigations...
+[1672144416.480][INFO]: Done waiting for pending navigations. Status: ok
+[1672144416.480][INFO]: [3db7e3b72f136ff6dc76f2c3e8bfd4d8] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACVAAAATbCAYAAAB1ZAwgAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3duXHOd93vvv763qngNmcCIBHkAaIAGeKZIWTZGmLdmJth1pZe1YSdbKWk7ucpW/KVdZyY2iXMTWluUtRbKpbVG0KJEETziQBAgQBxIECGAGg5np7qr3ty+q3..."
